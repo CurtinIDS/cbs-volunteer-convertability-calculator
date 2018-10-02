@@ -90,14 +90,15 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #F79F00;
+{ background: rgb(220, 0, 0);
   height: 240px;}
 
 #logo
 { width: 825px;
   position: relative;
   height: 168px;
-  background: #8B0073 url(logo.png) no-repeat;}
+  /* background: rgb(236, 5, 5) url(logo.png) no-repeat;} */
+}
 
 #logo #logo_text 
 { position: absolute; 
@@ -117,7 +118,7 @@ ol li
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #F05A00;}
+{ color: rgb(236, 236,236);}
 
 #logo_text h2
 { font-size: 100%;
@@ -128,7 +129,8 @@ ol li
 { width: 1116px;
   height: 72px;
   padding: 0;
-  background: #5B2660 url(menu.png) repeat-x;} 
+  /* background: #C70039 url(menu.png) repeat-x; */
+} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -258,7 +260,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   height: 33px;
   padding: 2px 0 3px 0;
   cursor: pointer; 
-  background: #F05A00; 
+  background: rgb(220, 0, 0); 
   color: #FFF;}
 
 .form_settings textarea, .form_settings select
