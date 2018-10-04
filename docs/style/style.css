@@ -19,19 +19,19 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #FF6600;
+  color: rgb(220, 0, 0);
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #1293EE;}
+  color: rgb(220, 0, 0);}
 
 h4, h5, h6
 { margin: 0;
   padding: 0 0 5px 0;
   font: normal 120% arial, sans-serif;
-  color: #1293EE;}
+  color: rgb(220, 0, 0);}
 
 h5, h6
 { font: italic 95% arial, sans-serif;
@@ -113,7 +113,7 @@ ol li
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #FFF;
+  color: #000F;
   letter-spacing: 0.1em;
   text-decoration: none;}
 
@@ -155,7 +155,7 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-  background: #3F1B41 url(menu_select.png) repeat-x;}
+  background: #c2970c url(menu_select.png) repeat-x;}
 
 #site_content
 { width: 1076px;
@@ -202,13 +202,13 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 0 0 4px 25px;
   line-height: 1.2em;}
 
-#footer
+#footer 
 { width: 1117px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
   text-align: center; 
-  background: #29425E url(footer.png) repeat-x;
+  background: #c2970c ;
   color: #FFF;
   text-transform: uppercase;
   letter-spacing: 0.1em;}
