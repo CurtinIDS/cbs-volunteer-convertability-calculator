@@ -155,7 +155,7 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-  background: #c2970c url(menu_select.png) repeat-x;}
+  background: #c2970c ;}
 
 #site_content
 { width: 1076px;
